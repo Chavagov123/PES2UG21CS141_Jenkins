@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        sh 'g++ -o task5 main/hello.cpp'
+        sh 'non existing command'
+        //sh 'g++ -o task5 main/hello.cpp'
         echo 'Build Successful!'
       }
     }
